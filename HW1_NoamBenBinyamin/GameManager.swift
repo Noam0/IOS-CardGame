@@ -46,16 +46,22 @@ class GameManager {
         }
     }
     
-    func updateScores(leftCardName: String, rightCardName: String) -> (scoreLeft: Int, scoreRight: Int) {
+    func updateScores(leftCardName: String, rightCardName: String) {
         let leftCardValue = cardValue(for: leftCardName)
         let rightCardValue = cardValue(for: rightCardName)
         
-        if (leftCardValue > rightCardValue) {
+        if leftCardValue > rightCardValue {
             scoreLeft += 1
-        } else if (rightCardValue > leftCardValue) {
+        } else if rightCardValue > leftCardValue {
             scoreRight += 1
         }
-        
-        return (scoreLeft, scoreRight)
+    }
+    
+    func getPlayerLeftScore() -> Int {
+        return scoreLeft
+    }
+    
+    func getPlayerRightScore() -> Int {
+        return scoreRight
     }
 }

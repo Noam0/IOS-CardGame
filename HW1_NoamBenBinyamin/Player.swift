@@ -1,8 +1,25 @@
-//
-//  Player.swift
-//  HW1_NoamBenBinyamin
-//
-//  Created by nir nir on 14/07/2024.
-//
-
-import Foundation
+class Player {
+    private var name: String
+    private var score: Int
+    
+    init(name: String) {
+        self.name = name
+        self.score = 0
+    }
+    
+    public func getName() -> String {
+        return self.name
+    }
+    
+    public func setName(name: String) {
+        self.name = name
+    }
+    
+    public func getScore() -> Int {
+        return self.score
+    }
+    
+    public func updateScore(score: Int) {
+        self.score += score
+    }
+}

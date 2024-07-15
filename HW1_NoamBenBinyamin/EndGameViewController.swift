@@ -1,29 +1,30 @@
-//
-//  EndGameViewController.swift
-//  HW1_NoamBenBinyamin
-//
-//  Created by nir nir on 15/07/2024.
-//
 
 import UIKit
 
 class EndGameViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    @IBOutlet weak var score_Label: UILabel!
+    @IBOutlet weak var winner_Label: UILabel!
+    @IBOutlet weak var back_to_menu_btn: UIButton!
+    var winnerName: String = ""
+        var score: Int = 0
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            back_to_menu_btn.contentHorizontalAlignment = .center
+            back_to_menu_btn.contentVerticalAlignment = .center
+            
+            
+            winner_Label.text = "\(winnerName) Won!"
+            score_Label.text = "Score: \(score)"
+        }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func backToMenuClicked(_ sender: UIButton) {
+        // Navigate back to the first LoginViewController
+        if let navigationController = self.navigationController {
+            navigationController.popToRootViewController(animated: true)
+        }
     }
-    */
 
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C6389262C4444CB00FEBB79 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6389252C4444CB00FEBB79 /* Player.swift */; };
+		6C812F132C453E2C00913D35 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C812F122C453E2C00913D35 /* EndGameViewController.swift */; };
+		6C93EF8C2C442D2A00006F8B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C93EF8B2C442D2A00006F8B /* LogInViewController.swift */; };
 		6C963AB32C26B43D00B86201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C963AB22C26B43D00B86201 /* AppDelegate.swift */; };
 		6C963AB52C26B43D00B86201 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C963AB42C26B43D00B86201 /* SceneDelegate.swift */; };
 		6C963AB72C26B43D00B86201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C963AB62C26B43D00B86201 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C6389252C4444CB00FEBB79 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		6C812F122C453E2C00913D35 /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		6C93EF8B2C442D2A00006F8B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		6C963AAF2C26B43D00B86201 /* HW1_NoamBenBinyamin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW1_NoamBenBinyamin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C963AB22C26B43D00B86201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C963AB42C26B43D00B86201 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				6C963ABD2C26B44000B86201 /* LaunchScreen.storyboard */,
 				6CD619A92C2EF48E0093D5A0 /* GameManager.swift */,
 				6C963AC02C26B44000B86201 /* Info.plist */,
+				6C93EF8B2C442D2A00006F8B /* LogInViewController.swift */,
+				6C6389252C4444CB00FEBB79 /* Player.swift */,
+				6C812F122C453E2C00913D35 /* EndGameViewController.swift */,
 			);
 			path = HW1_NoamBenBinyamin;
 			sourceTree = "<group>";
@@ -264,6 +273,9 @@
 				6C963AB72C26B43D00B86201 /* ViewController.swift in Sources */,
 				6CD619AA2C2EF48E0093D5A0 /* GameManager.swift in Sources */,
 				6C963AB32C26B43D00B86201 /* AppDelegate.swift in Sources */,
+				6C93EF8C2C442D2A00006F8B /* LogInViewController.swift in Sources */,
+				6C6389262C4444CB00FEBB79 /* Player.swift in Sources */,
+				6C812F132C453E2C00913D35 /* EndGameViewController.swift in Sources */,
 				6C963AB52C26B43D00B86201 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
